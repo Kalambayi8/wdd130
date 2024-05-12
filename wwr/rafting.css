@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=optional-2nd-Kalam&display=swap");
+
+:root {
+    --primary-color: #4056F4;
+    --secondary-color: #4056F4;
+    --accent1-color: #CBF3F0;
+    --accent2-color: #B8B8FF;
+
+    --heading-font: "Kalam", serif;
+    --paragraph-font: "Kalam", serif;
+
+    --nav-background-color: #B8B8FF;
+    --nav-hover-background-color: #4056F4;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+    background-color: #B8B8FF;
+}
+
